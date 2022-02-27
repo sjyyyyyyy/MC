@@ -1,0 +1,1933 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+/*正常的未被访问过的链接*/
+a:link {
+    text-decoration: none;
+}
+/*已经访问过的链接*/
+a:visited {
+    text-decoration: none;
+}
+/*鼠标划过(停留)的链接*/
+a:hover {
+    text-decoration: none;
+}
+/* 正在点击的链接，鼠标在元素上按下还没有松开*/
+a:active {
+    text-decoration: none;
+}
+/* 获得焦点的时候 鼠标松开时显示的颜色*/
+a:focus {
+    text-decoration: none;
+}
+
+.top{
+    width: 100%;
+    height: 54px;
+    background-color: #FFFFFF;
+  position: relative;
+  min-width: 1260px;
+  border-bottom: lightblue solid 1px;
+}
+.mulu{
+position: absolute;
+left: 0;
+top: 0;
+width: 179px;
+height: 54px;
+background-color: #cf1132;
+color: #fff!important;
+font-size: 12px;
+text-align: center;
+line-height: 52px;
+display: inline-block;
+}
+.mulutu{
+    display: inline-block;
+    width: 25px;
+    height: 11px;
+    background:url(./img/sprite-w_dd519f4.png) -90px -306px no-repeat;
+    margin-right: 5px;
+}
+.toptu1{
+    position: absolute;
+    height: 54px;
+    top: 0px;
+    left: 179px;
+}
+.toptu2{
+    width: 133px;
+    height: 44px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    margin-top: 5px;
+}
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.gundong{
+    float: right;
+    height: 50px;
+    margin-block-start: -4px;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0;
+    cursor: pointer;
+}
+.gundong1{
+    font-size: 12px;
+    font-style: normal;
+    display: inline-block;
+    text-align: center;
+    line-height: 59px;
+    margin-top: 0;
+    border: rgb(206, 202, 202) solid 1px;
+    border-bottom: none;
+    border-top: none;
+    width: 138px;
+    height:58px;
+    box-sizing: border-box;
+   
+}
+.mar{
+     margin-right: -6px;
+}
+/* 顶部栏结束 */
+.nav{
+    width: 100%;
+    height: 92px;
+    background:url(./img/top_bg1_db2a296.png) no-repeat;
+    position: relative;
+}
+.logo{
+    background: url(./img/logo.webp) no-repeat;
+    background-size: 100%;
+    width: 265px;
+    height: 100px;
+    position: absolute;
+    top: 12px;
+    left: 0;
+    display: block;
+}
+.jihe{
+ float: right;
+ height: 92px;
+ margin-right: 90px;
+}
+.nav{
+    z-index: 9;
+}
+.nav1{
+    color: white;
+    display: inline-block;
+    height: 92px;
+    width: 65px;
+    margin-right: 75px;
+ 
+}
+.i1{
+    width: 31px;
+    height: 31px;
+    display: block;
+    margin: 18px auto 10px;
+    background: url(./img/nav01_58cdf2f.png);
+}
+.i2{
+    width: 31px;
+    height: 31px;
+    display: block;
+    margin: 18px auto 10px;
+    background: url(./img/nav02_70a1c46.png);
+}
+.i3{
+    width: 31px;
+    height: 31px;
+    display: block;
+    margin: 18px auto 10px;
+    background: url(./img/nav8_864b111.png);
+}
+.i4{
+    width: 31px;
+    height: 31px;
+    display: block;
+    margin: 18px auto 10px;
+    background: url(./img/nav04_436de87.png);
+}
+.i5{
+    width: 31px;
+    height: 31px;
+    display: block;
+    margin: 18px auto 10px;
+    background: url(./img/nav04_436de87.png);
+}
+.i6{
+    width: 31px;
+    height: 31px;
+    display: block;
+    margin: 18px auto 10px;
+    background: url(./img/nav05_fe2225f.png);
+}
+.i7{
+    width: 31px;
+    height: 31px;
+    display: block;
+    margin: 18px auto 10px;
+    background: url(./img/nav06_704430e.png);
+}
+.i8{
+    width: 31px;
+    height: 31px;
+    display: block;
+    margin: 18px auto 10px;
+    background: url(./img/nav11_f8b7807.png);
+}
+
+.nav1 p{
+    text-align: center;
+    font-size: 12px!important;
+    height: 12px;
+    line-height: 12px;
+    margin-top: 15px;
+    color: #eee;
+}
+.shouye{
+    width: 100%;
+    height: 677px;
+  margin-top: -92px;
+    background: url(./img/banner0624_414baa2.jpg) center 0 no-repeat;
+    position: relative;
+}
+.shouyexia{
+    width: 1227px;
+    height: 227px;
+    background: url(./img/block_874d62a.png) no-repeat;
+    position: relative;
+    top: 76%;
+    margin: 0 auto;
+}
+.nian{
+    position: relative;
+    top: -154px;
+    left: 72px;
+    width: 90px;
+    height: 117px;
+    background: url(./img/age_34deea0.png) no-repeat;
+   cursor: pointer;
+}
+.zheng{
+    width: 305px;
+    height: 118px;
+    background: url(./img/down_bg_f64aab9.png);
+    position: absolute;
+    top: 0%;
+    left: 111%;
+   
+}
+.zheng img{
+    margin-left: 35%;
+}
+.zheng span{
+    color: #32363f;
+    font-size: 12px;
+  
+}
+.saoma{
+    background: url(./img/5b2a0a547f9d2a987640617cC0AJgvW0.png);
+    width: 72px;
+    height: 72px;
+    background-size: 100% 100%;
+    border: 2px #d5d5d5 solid;
+    margin-left: 15px;
+    display: inline-block;
+}
+.zhong{
+    display:inline-block;
+    margin-bottom: 4px;
+}
+.app{
+    width: 110px;
+    height: 33px;
+    display: block;
+    background: url(./img/ios_8a9d2ac.png) no-repeat;
+    background-size: cover;
+    margin-top: 4px;
+}
+.anzhuo{
+    width: 110px;
+    height: 33px;
+    display: block;
+    background: url(./img/and_4c45f75.png) no-repeat;
+    background-size: cover;
+    margin-top: 4px;
+}
+.you{
+    background-color: rgb(92, 89, 89);
+    width: 71px;
+    height: 71px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+.you img{
+    display: block;
+    margin-left: 40%;
+    margin-top: 32%;
+}
+.xia{
+    color: #32363f;
+    font-size: 12px;
+    text-align: center;
+    margin-top: -6px;
+    margin-left: -26px;
+}
+.ver{
+    display: inline-block;
+    width: 170px;
+    height: 26px;
+    background: url(./img/ver_e018dd2.png) no-repeat;
+    font-size: 22px;
+    font-weight: 600;
+    color: #d3d3d3;
+    cursor: default;
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    padding-left: 35px;
+}
+.down{
+    display: inline-block;
+    width: 165px;
+    height: 26px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #f8e46b;
+    background: url(./img/down_28f34d5.png) no-repeat;
+    position: absolute;
+    top: 5%;
+    left: 24%;
+    padding-left: 32px;
+}
+.bo1{
+    display: block;
+    width: 308px;
+    height: 88px;
+    background: url(./img/toBe_czz_9a12061.png) no-repeat;
+    position: absolute;
+    top: 47%;
+    left: 5%;}
+.bo2{
+    display: block;
+    background: url(./img/btn_p_5bda71b.png) no-repeat;
+    width: 36px;
+    height: 56px;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 53%;
+    left: 49%;
+}
+.bo3{
+    display: block;
+    width: 297px;
+    height: 84px;
+    background: url(./img/czz_plan_b04d4fc.png) no-repeat;
+    position: absolute;
+    top: 45%;
+    left:71%;
+}
+.zhongbu{
+    width: 100%;
+    height: 1939px;
+    background: url(./img/con_bg-2_1bf1f4c.png) center center no-repeat;
+}
+.beijing{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+}
+#container{
+    width: 540px;
+    height: 330px;
+    background-color: #ffad40;
+    padding:13px 12px;
+   position: relative;
+   float: left;
+}
+#list{
+    width: 540px;
+    height: 330px;
+    margin: auto;
+    overflow: hidden;
+}
+#nei{
+    width: max-content;
+    height: 330px;
+    transition:1s;
+    /* animation: switch 30s ease-out infinite; */
+}
+#nei img{
+    float: left;
+    width:540px;
+    height: 330px;
+}
+#buttons{
+    width: 450px;
+    position: absolute;
+    top: 318px;
+    left: 331px;
+}
+#h{
+   display: inline-block;
+    margin-left: -1px;
+    background-color: #135805;
+    border: 3px solid #135805;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+.middle{
+    position:relative;
+}
+.lv{
+    width: 61px;
+    height: 66px;
+    background: url(./img/box_8f0e3f1.png) no-repeat;
+    position: absolute;
+    top: 40px;
+    left: -54px;
+    z-index:2;
+}
+.kuang{
+    width: 488px;
+    height: 327px;
+    background: #fff;
+    margin-top: 29px;
+    float: left;
+}
+.xuan{
+    height: 40px;
+    border-bottom: 2px solid #edf3ec;
+    position: relative;
+}
+.kuang a{
+    color: #000; 
+     text-decoration: none;
+}
+.xuan a{
+    
+    font-size: 15px;
+  
+    display: inline-block;
+    width: 89px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-weight: 700;
+}
+.xiang{
+    overflow: hidden;
+    position: relative;
+    width: 488px;
+}
+#heng{
+    width: max-content;
+    transition: 1s;
+}
+.heng-{
+    width: 488px;
+   float: left;
+}
+.youce{
+    width: 125px;
+    height: 317px;
+    border: 5px solid #ffb900;
+    margin-top: 29px;
+    float: right;
+    position: relative;
+    text-align: center;
+}
+.youce::before{
+    content: '';
+    width: 52px;
+    height: 51px;
+    background: url(./img/share_bg_92aaa44.png) no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.youce::after{
+    content: '';
+    width: 101px;
+    height: 340px;
+    background: url(./img/box2_5ae272c.png) no-repeat;
+    position: absolute;
+    top: -13px;
+    right: -106px;
+}
+.share1{
+    color: #333;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 28px;
+    
+}
+.share2{
+    color: #999;
+    font-size: 12px;
+}
+.share{
+    width: 100%;
+    margin: 10px auto;
+}
+.sharetu{
+ display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(167, 164, 164);
+}
+.sharetu:hover{
+    background-color: rgb(115, 206, 115);
+}
+.hr{
+    margin: 10px 15px;
+    margin-bottom: auto;
+    background-color: rgba(177, 176, 176, 0.349);
+}
+.youce a{
+    text-decoration: none;
+    color: #333;
+    width: 38px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 1px;
+}
+.di{
+    width: 125px;
+    overflow: hidden;
+}
+#dibu{
+     width: max-content;
+     margin-top: 10px;
+     transition: 0.5s;
+}
+.dibu1{
+    width: 125px; 
+    font-size: 12px;
+    
+ float: left;
+}
+.dibu1 p{
+    text-align: center;
+    margin-top: 3px;
+}
+.dibu1 img{
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+.azhe{
+    margin: 110px auto 30px;
+    height: 145px;
+    width: 1200px;
+    position: relative;
+}
+#zuo{
+    position: absolute;
+    width: 26px;
+    height: 53px;
+    margin-top: -26px;
+    top: 50%;
+    background-size: 100% 100%;
+    left: -45px;
+    background-image: url(./img/btn_prev_dis_c2117b1.png);
+}
+#you{
+    position: absolute;
+    width: 26px;
+    height: 53px;
+    margin-top: -26px;
+    top: 50%;
+    background-size: 100% 100%;
+    right: -45px;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url(./img/btn_next_dis_df5265b.png);
+}
+.neirong{
+    overflow: hidden;
+    width: 1200px;
+    height: 145px;
+}
+#yidong{
+    width: max-content;
+    transition: 1s;
+}
+.kuai{
+    width: 240px;
+    height: 145px;
+    float: left;
+}
+.ku1{
+background:url(./img/QQ图片20210909132233.png) 0px -145px ;
+
+}
+.ku2{
+    background:url(./img/QQ图片20210909132233.png) -240px -145px ;
+}
+.ku3{
+    background:url(./img/QQ图片20210909132233.png) -480px -145px ;
+}
+
+.ku4{
+    background:url(./img/QQ图片20210909134519.png) -2px -146px ;
+
+}
+.ku5{
+    background:url(./img/QQ图片20210909134519.png) -240px -146px ;
+}
+.ku6{
+    background:url(./img/QQ图片20210909134519.png) -480px -146px ;
+}
+.ku7{
+    background:url(./img/QQ图片20210909134519.png) -722px -146px ;
+}
+.ku8{
+    background:url(./img/QQ图片20210909134519.png) -962px -146px ;
+}
+.zhongxia{
+    width: 1200px;
+    height: 375px;
+    margin: 0 auto;
+}
+.zuo1{
+    width: 190px;
+    height: 354px;
+    float: left;
+}
+.zuo1shang{
+    width: 166px;
+    height: 57px;
+    padding-top: 35px;
+    position: relative;
+    background: #f2f2f2 url(./img/work_bg_603dcc1.png) no-repeat;
+}
+.zuo1shang::before{
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #ff9100;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+}
+.zi1{
+    color: #333;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+.zi2{
+    color: #999;
+    text-align: center;
+    font-size: 12px;
+}
+.zi3{
+    width: 165px;
+    height: 39px;
+    background: url(./img/work_more_bg_7821d48.png) no-repeat center bottom;
+    position: absolute;
+    top: 336px;
+    left: 0px;
+}
+.zi4{
+    display: block;
+    width: 34px;
+    height: 34px;
+    background-image: url(./img/more1_61c0972.png);
+    position: absolute;
+    top: 328px;
+    left: 146px;
+}
+    
+
+.xiazi{
+    width: 165px;
+    height: 244px;
+    background: #fff;
+}
+.zuozi{
+    font-size: 16px;
+    width: 190px;
+    height: 53px;
+     transition: 1s;
+}
+.neizi{
+    text-decoration: none;
+   color: #333;
+    display: inline-block;
+    width: 165px;
+    height: 53px;
+    line-height: 51px;
+    text-align: center;
+    border-bottom: 1px solid rgba(223, 220, 220, 0.781);
+}
+.you1{
+    width: 1010px;
+    height: 354px;
+    float: left;
+    position: relative;
+}
+.tu11{
+    visibility: hidden;
+    transition: all 1s;
+}
+.flk{
+    width: 243px;
+    height: 157px;
+    margin: 0 12px 21px 0;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background-size:100% 100%;
+}
+
+.xiazi hr{
+    border: 1px solid transparent;
+}
+.flkyou{
+    margin: 0 0px 21px 0;
+}
+.flk1{
+ background-image: url(./img/1.jpg);
+}
+.flk2{
+    background-image: url(./img/2.jpg);
+}
+.flk3{
+    background-image: url(./img/3.jpg);
+}
+.flk4{
+    background-image: url(./img/4.jpg);
+}
+.flk5{
+    background-image: url(./img/5.jpg);
+}
+.flk6{
+    background-image: url(./img/6.jpg);
+}
+.flk7{
+    background-image: url(./img/7.jpg);
+}
+.flk8{
+    background-image: url(./img/8.jpg);
+}
+.tu22{
+
+    visibility: hidden;
+    transition:all 1s;
+}
+.flku{
+    width: 183px;
+    height: 183px;
+    margin-right: 23px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background-size:100% 100%;
+}
+.flkuyou{
+    margin-right: 0px;
+}
+.flku1{
+background-image: url(./img/11.jpg);
+}
+.flku2{
+    background-image: url(./img/22.jpg);
+}
+.flku3{
+    background-image: url(./img/33.jpg);
+}
+.flku4{
+    background-image: url(./img/44.jpg);
+}
+.flku5{
+    background-image: url(./img/55.jpg);
+}
+.flku6{
+    background-image: url(./img/66.jpg);
+}
+.flku7{
+    background-image: url(./img/77.jpg);
+}
+.flku8{
+    background-image: url(./img/88.jpg);
+}
+.flku9{
+    background-image: url(./img/99.jpg);
+}
+.flku0{
+    background-image: url(./img/00.jpg);
+}
+.tu33{
+    
+    visibility: hidden;
+    transition:all 1s;
+}
+.flkua1{
+    background-image: url(./img/111.png);
+    }
+    .flkua2{
+        background-image: url(./img/222.png);
+    }
+    .flkua3{
+        background-image: url(./img/333.png);
+    }
+    .flkua4{
+        background-image: url(./img/444.png);
+    }
+    .flkua5{
+        background-image: url(./img/555.png);
+    }
+    .flkua6{
+        background-image: url(./img/666.png);
+    }
+    .flkua7{
+        background-image: url(./img/777.png);
+    }
+    .flkua8{
+        background-image: url(./img/888.png);
+    }
+    .flkua9{
+        background-image: url(./img/999.png);
+    }
+    .flkua0{
+        background-image: url(./img/000.png);
+    }
+    .xiabu{
+        width: 1200px;
+        margin: 35px auto 100px;
+        height: 410px;
+    }
+    .shang1{
+        width: 100%;
+        height: 45px;
+    }
+    .videonav{
+        width: 168px;
+        height: 45px;
+        font-size: 14px;
+        float: left;
+        background: url(./img/video_tit_bg_dd4b462.png) no-repeat;
+    }
+    .minav{
+        float: left;
+        margin-left: 30px;
+    }
+    .mininav{
+        float: left;
+        width: 112px;
+        height: 44px;
+        line-height: 44px;
+        text-align: center;
+        margin-right: 3px;
+        font-size: 16px;
+    }
+    .videozi1{
+        margin-top: -5px;
+        color: #333;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    
+    }
+    .videozi2{
+        color: #999;
+        font-size: 14px;
+        text-align: center;
+    }
+    .videomore{
+        float: left;
+        color: #ff9100;
+        height: 45px;
+        line-height: 45px;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    .morejia{
+        width: 34px;
+        height: 34px;
+        display: inline-block;
+        background: url(./img/more1_61c0972.png) center right no-repeat;
+        margin:5px 0 0 10px;
+       
+    }
+    .xia1{
+        width: 1200px;
+        margin-top: 41px;
+    }
+    .xia1zuo{
+        width: 486px;
+        height: 322px;
+        float: left;
+        cursor: pointer;
+        position: relative;
+        background-image: url(./img/tu1.png);
+        background-size: 100% 100%;
+    }
+    .xia1you{
+        width: 714px;
+        height: 322px;
+       
+        float: left;
+    }
+    .xia1zi{
+        position: absolute;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        bottom: 0;
+        left: 0;
+        background: #333;
+        color: #fff;
+        font-size: 14px;
+    }
+    .fll{
+        float: left;
+        margin-left: 12px;
+        width: 221px;
+        height: 169px;
+        position: relative;
+        cursor: pointer;
+    }
+    .fll img{
+        width: 221px;
+        height: 117px;
+    }
+    .p1{
+        color: #4d4c4c;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        line-height: 19px;
+        font-size: 13px;
+    }
+    .p2{
+        color: #27881f;
+        line-height: 18px;
+        font-size: 13px;
+    }
+    #margin{
+        margin-left: 10px;
+    }
+  .bottom{
+      width: 1200px;
+      margin:0 auto;
+    height: 390px;
+    position: relative;
+    top: -60px;
+  }
+  .zuo11{
+    width: 428px;
+    height: 390px;
+    float: left;
+  }
+  .top11{
+    border: 2px solid #ffddb1;
+    width: 424px;
+    height: 42px;
+    line-height: 42px;
+    position: relative;
+  }
+  .dd{
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    color: #242424;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 42px;
+     transition: 0.5s;
+    
+ 
+  }
+  .bottom11{
+    overflow: hidden;
+    position: relative;
+    width: 428px;
+  }
+  .kuo{
+    width: 856px;
+    left: 0px;
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    transition: 1s;
+  }
+  .kuo ul{
+    float: left;
+    width: 428px;
+  }
+  .lione{
+    height: 84px;
+    padding: 14px 0 12px 14px;
+    border-bottom: 1px #d1c8c1 solid;
+    margin-bottom: 11px;
+  line-height: 39px;
+
+position: relative;
+  }
+  .lirest{
+    height: 39px;
+    line-height: 39px;
+    border-bottom: 1px dotted #d1c8c1;
+    position: relative;
+  }
+  
+      .lione img{
+        width: 156px;
+        height: 84px;
+      }
+.lione div{
+    width: 240px;
+    margin-left: 11px;
+    display: inline-block;
+    vertical-align: top;
+}
+.fir{
+    color: #ff9100;
+    font-size: 19px;
+    font-weight: 700;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 30px;
+}
+.sec{
+    height: 48px;
+    color: #898989;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    white-space: normal;
+    line-height: 16px;
+}
+.lirest a{
+    width: 365px;
+    color: #292828;
+    display: block;
+    overflow: hidden;
+    font-size: 13px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.lirest i{
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    display: inline-block;
+    border-color: transparent;
+    border-width: 7px;
+    border-style: solid;
+    border-left-color: #a5a5a5;
+}
+.lirest span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #999;
+    font-size: 12px;
+}
+/* @keyframes switch {
+    0%, 5% {
+        margin-left: 0;
+    }
+    5%, 10% {
+        margin-left: -540px;
+    }
+    10%, 15% {
+        margin-left: -1080px;
+    }
+    15%,20% {
+        margin-left: -1620px;
+    }
+    20%,25% {
+        margin-left: -2160px;
+    }
+    25%,30% {
+        margin-left: -2700px;
+    }
+    30%,35% {
+        margin-left: -3240px;
+    }
+    35%,40% {
+        margin-left: -3780px;
+    }
+    40%,45% {
+        margin-left: -4320px;
+    }
+    45%,50% {
+        margin-left: -4860px;
+    }
+    50%,55% {
+        margin-left: -5400px;
+    }
+    55%,100% {
+        margin-left: -5940px;
+    }
+} */
+    </style>
+</head>
+
+
+<body>
+    <div class="all">
+        <!--   整体 -->
+        <div class="top clearfix">
+            <!--顶部栏-->
+
+            <div class="mulu">
+                <i class="mulutu"></i>
+                游戏全目录
+            </div>\
+            <img class="toptu1" src="./img/612ef15196dee482816a1305Ecz4QXcJ03.jpg" alt="">
+            <img class="toptu2" src="./img/logo_b5525b7.png" alt="">
+            <ul class="gundong clearfix">
+                <li class="gundong1 mar">热点推荐</li>
+                <li class="gundong1">限时领取免费课程</li>
+            </ul>
+        </div>
+        <div class="nav clearfix">
+            <!-- 导航栏 -->
+
+            <a class="logo" href="#"></a>
+            <ul class="jihe">
+                <li class="nav1">
+                    <a href="#">
+                        <i class="i1"></i>
+                        <p>官网首页</p>
+                    </a>
+                </li>
+                <li class="nav1">
+                    <a href="#">
+                        <i class="i2"></i>
+                        <p>新闻资讯</p>
+                    </a>
+                </li>
+                <li class="nav1">
+                    <a href="#">
+                        <i class="i3"></i>
+                        <p>线下活动</p>
+                    </a>
+                </li>
+                <li class="nav1">
+                    <a href="#">
+                        <i class="i4"></i>
+                        <p>玩家攻略</p>
+                    </a>
+                </li>
+                <li class="nav1">
+                    <a href="#">
+                        <i class="i5"></i>
+                        <p>玩家作品</p>
+                    </a>
+                </li>
+                <li class="nav1">
+                    <a href="#">
+                        <i class="i6"></i>
+                        <p>视频中心</p>
+                    </a>
+                </li>
+                <li class="nav1">
+                    <a href="#">
+                        <i class="i7"></i>
+                        <p>社区互动</p>
+                    </a>
+                </li>
+                <li class="nav1">
+                    <a href="#">
+                        <i class="i8"></i>
+                        <p>创造者计划</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="shouye">
+            <!-- 首页大图 -->
+            <div class="shouyexia">
+                <!-- 首页下栏 -->
+                <div class="nian">
+                    <div class="zheng">
+                        <span> <img src="./img/jt_4319762.png">扫码下载手游</span>
+                        <br>
+                        <div class="saoma"></div>
+                        <div class="zhong">
+                            <div class="app"></div>
+                            <div class="anzhuo"></div>
+                        </div>
+                        <div class="you">
+                            <img src="./img/btn_p_5bda71b.png" alt="">
+                        </div>
+                        <div class="xia">注册网易通行证</div>
+                    </div>
+                </div>
+                <div class="ver">西游生存玩法</div>
+                <div class="down">立即下载端游</div>
+                <a href="#" class="bo1"></a>
+                <a href="#" class="bo2"></a>
+                <a href="#" class="bo3"></a>
+            </div>
+        </div>
+        <div class="zhongbu">
+            <!-- 中部 -->
+            <div class="beijing">
+                <div class="middle clearfix">
+                    <div class="lv"></div>
+                    <div id="container">
+                        <!--轮播图-->
+                        <div id="list">
+                            <div class="clearfix" style="margin-left: 0px;" id="nei">
+                                <img src="./img/60de93f4a7f25241f6425c95UydUJSwF03.jpg" alt="1">
+                                <img src="./img/61259fd696dee44e934b2720XAhmWs2F03.png" alt="2">
+                                <img src="./img/611dfc808b74275f5f5b3481VCb9scMp03.jpg" alt="3">
+                                <img src="./img/611a18ff5e602723ffc7d479m0BjHLbf03.jpg" alt="4">
+                                <img src="./img/6116213896dee4103f94cb52x893dGhJ03.jpg" alt="5">
+                                <img src="./img/60f938216f04942cb812f0a2HF8t0VMq03.jpg" alt="6">
+                                <img src="./img/60f152087f9d2a6508bcfac3rCZUYq5303.png" alt="7">
+                                <img src="./img/60eff81a2786fd77500747b5r0ItliSk03.jpg" alt="8">
+                                <img src="./img/60ed48a58b742739920a0c891vPIjAHU03.jpg" alt="9">
+                                <img src="./img/60e2bf5e2786fd124f688696yRxZ8PUL03.jpg" alt="10">
+                                <img src="./img/60deb3a78b742735edd986fcNAsWEBAV03.jpg" alt="11">
+                                <img src="./img/60de93f4a7f25241f6425c95UydUJSwF03.jpg" alt="1">
+                            </div>
+                            <div id="buttons">
+                                <div style="background-color: grey;" id="h" index="1" class="on"></div>
+                                <div style="background-color: #135805;" id="h" index="2"></div>
+                                <div style="background-color: #135805;" id="h" index="3"></div>
+                                <div style="background-color: #135805;" id="h" index="4"></div>
+                                <div style="background-color: #135805;" id="h" index="5"></div>
+                                <div style="background-color: #135805;" id="h" index="6"></div>
+                                <div style="background-color: #135805;" id="h" index="7"></div>
+                                <div style="background-color: #135805;" id="h" index="8"></div>
+                                <div style="background-color: #135805;" id="h" index="9"></div>
+                                <div style="background-color: #135805;" id="h" index="10"></div>
+                                <div style="background-color: #135805;" id="h" index="11"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="kuang">
+                        <div class="xuan">
+                            <a style="color:white;background:url(./img/news_on_e2243f0.png) no-repeat;background-size: auto 42px;"
+                                href="#">最新</a>
+                            <a style="color:black;background:none ;background-size: auto 42px;" href="#">热点</a>
+                            <a style="color:black;background:none ;background-size: auto 42px;" href="#">新闻</a>
+                            <a style="color:black;background:none ;background-size: auto 42px;" href="#">公告</a>
+                        </div>
+                        <div class="xiang">
+                            <div style="margin-left: 0px;" id="heng" class="clearfix">
+                                <ul class="heng-">
+                                    <li><a href="#">【热点】想吃什么？小官微都会做！</a><span></span></li>
+                                    <li><a href="#">推荐游戏党必备好物，新人特价包邮！</a><span></span></li>
+                                    <li><i></i><a href="#">【热点】我这瓜卖你两块一斤不过分吧~</a><span>09-08</span></li>
+                                    <li><i></i><a href="#">【公告】《我的世界》中国版更新公告</a><span>09-06</span></li>
+                                    <li><i></i><a href="#">【公告】关于游戏内作弊等违规行为的处罚公告</a><span>09-06</span></li>
+                                    <li><i></i><a href="#">【新闻】随刻X我的世界建筑大赛正式开启！</a><span>09-06</span></li>
+                                </ul>
+                                <ul class="heng-">
+                                    <li><a href="#">【热点】想吃什么？小官微都会做！</a><span></span></li>
+                                    <li><i></i><a href="#">【热点】我这瓜卖你两块一斤不过分吧~</a><span>09-08</span></li>
+                                    <li><i></i><a href="#">【热点】这不比过山车好玩？</a><span>09-06</span></li>
+                                    <li><i></i><a href="#">【热点】血压飙升！《我的世界》绝望时刻大盘点！老玩家：最后这个太真实</a><span>09-05</span></li>
+                                    <li><i></i><a href="#">【热点】友情危机！在《我的世界》痛击队友，网友：村里的笋都让你夺完了</a><span>09-04</span></li>
+                                    <li><i></i><a href="#">【热点】冲鸭！投掷物们</a><span>09-04</span></li>
+                                </ul>
+                                <ul class="heng-">
+                                    <li><a href="#">【热点】想吃什么？小官微都会做！</a><span></span></li>
+                                    <li><i></i><a href="#">【热点】我这瓜卖你两块一斤不过分吧~</a><span>09-08</span></li>
+                                    <li><i></i><a href="#">【热点】这不比过山车好玩？</a><span>09-06</span></li>
+                                    <li><i></i><a href="#">【热点】血压飙升！《我的世界》绝望时刻大盘点！老玩家：最后这个太真实</a><span>09-05</span></li>
+                                    <li><i></i><a href="#">【热点】友情危机！在《我的世界》痛击队友，网友：村里的笋都让你夺完了</a><span>09-04</span></li>
+                                    <li><i></i><a href="#">【热点】冲鸭！投掷物们</a><span>09-04</span></li>
+                                </ul>
+                                <ul class="heng-">
+                                    <li><a href="#">【热点】想吃什么？小官微都会做！</a><span></span></li>
+                                    <li><i></i><a href="#">【热点】我这瓜卖你两块一斤不过分吧~</a><span>09-08</span></li>
+                                    <li><i></i><a href="#">【热点】这不比过山车好玩？</a><span>09-06</span></li>
+                                    <li><i></i><a href="#">【热点】血压飙升！《我的世界》绝望时刻大盘点！老玩家：最后这个太真实</a><span>09-05</span></li>
+                                    <li><i></i><a href="#">【热点】友情危机！在《我的世界》痛击队友，网友：村里的笋都让你夺完了</a><span>09-04</span></li>
+                                    <li><i></i><a href="#">【热点】冲鸭！投掷物们</a><span>09-04</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="youce">
+                        <p class="share1">分享</p>
+                        <p class="share2">SHARE</p>
+                        <div class="share">
+                            <div class="sharetu"></div>
+                            <div class="sharetu"></div>
+                            <div class="sharetu"></div>
+                        </div>
+                        <hr class="hr">
+                        <a style="color:rgb(10, 192, 10);border-bottom: 3px solid rgb(11, 172, 11);" href="#">冒险家</a>
+                        <a style="color:#333;border-bottom: none" href="#">开发者</a>
+                        <div class="di">
+                            <div id="dibu" class="clearfix" style="margin-left: 0px;">
+                                <div class="dibu1">
+                                    <img src="./img/qrcode_wx_53ee717.jpg" alt="">
+                                    <p> 扫一扫关注微信</p>
+                                    <p>我的世界Minecraft </p>
+                                </div>
+                                <div class="dibu1">
+                                    <img src="./img/qrcode_kfz_817d6c0.jpg" alt="">
+                                    <p> 扫一扫关注微信</p>
+                                    <p>我的世界开发者</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="azhe">
+                <div class="neirong">
+                    <div id="yidong" style="margin-left: 0px;" class="clearfix">
+                        <div class="kuai ku1"></div>
+                        <div class="kuai ku2"></div>
+                        <div class="kuai ku3"></div>
+                        <div class="kuai ku4"></div>
+                        <div class="kuai ku5"></div>
+                        <div class="kuai ku6"></div>
+                        <div class="kuai ku7"></div>
+                        <div class="kuai ku8"></div>
+                    </div>
+                </div>
+                <div id="zuo"></div>
+                <div id="you"></div>
+            </div>
+            <div class="zhongxia clearfix">
+                <div class="zuo1">
+                    <div class="zuo1shang">
+                        <p class="zi1">玩家作品</p>
+                        <p class="zi2">WORKS</p>
+                        <div class="zi3"></div>
+                        <i class="zi4"></i>
+                    </div>
+                    <div class="zuo1xia">
+                        <ul class="xiazi">
+
+                            <li id="dian1" style=" background-color: #ea4a34; color:white;" class="lei zuozi"><a
+                                    class="neizi" href="#">精彩图片</a></li>
+                            <hr>
+                            <li id="dian1" style="  background-color: none;color: #333;" class=" zuozi"><a class="neizi"
+                                    href="#">头像下载</a></li>
+                            <hr>
+
+                            <li id="dian1" style=" background-color: none;color: #333;" class=" zuozi"><a class="neizi"
+                                    href="#">表情包</a></li>
+
+                            <hr>
+                        </ul>
+                    </div>
+                </div>
+                <div class="you1 clearfix">
+                    <ul style="display: block;  visibility: visible;" id="none1" class="tu11 clearfix">
+                        <li class="flk flk1"></li>
+                        <li class="flk flk2"></li>
+                        <li class="flk flk3"></li>
+                        <li class="flk flk4 flkyou"></li>
+                        <li class="flk flk5"></li>
+                        <li class="flk flk6"></li>
+                        <li class="flk flk7"></li>
+                        <li class="flk flk8 flkyou"></li>
+                    </ul>
+                    <ul style="display: none; visibility: hidden;" id="none1" class="tu22 clearfix">
+                        <li class="flku flku1"></li>
+                        <li class="flku flku2"></li>
+                        <li class="flku flku3"></li>
+                        <li class="flku flku4"></li>
+                        <li class="flku flku5 flkuyou"></li>
+                        <li class="flku flku6"></li>
+                        <li class="flku flku7"></li>
+                        <li class="flku flku8"></li>
+                        <li class="flku flku9"></li>
+                        <li class="flku flku0 flkuyou"></li>
+                    </ul>
+                    <ul style="display: none; visibility: hidden;" id="none1" class="tu33 clearfix">
+                        <li class="flku flkua1"></li>
+                        <li class="flku flkua2"></li>
+                        <li class="flku flkua3"></li>
+                        <li class="flku flkua4"></li>
+                        <li class="flku flkua5 flkuyou"></li>
+                        <li class="flku flkua6"></li>
+                        <li class="flku flkua7"></li>
+                        <li class="flku flkua8"></li>
+                        <li class="flku flkua9"></li>
+                        <li class="flku flkua0 flkuyou"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="xiabu">
+                <div class="shang1 clearfix">
+                    <div class="videonav">
+                        <p class="videozi1">视频中心</p>
+                        <p class="videozi2">VIDEO</p>
+                    </div>
+                    <ul id="mar1" class="clearfix minav">
+                        <li style=" background-image: url(./img/video_bg_63177d8.png);
+                        color: white;" class="mininav">官方</li>
+                        <li class="mininav">推荐</li>
+                        <li class="mininav">生存</li>
+                        <li class="mininav">红石</li>
+                        <li class="mininav">建筑</li>
+                        <li class="mininav">动画</li>
+                        <li class="mininav">海洋</li>
+                    </ul>
+                    <a class="videomore">
+                        MORE
+                    </a>
+                    <i class="morejia"></i>
+                </div>
+                <div class="xia1 clearfix">
+                    <div class="xia1zuo">
+                        <p class="xia1zi">西湖申遗十周年</p>
+                    </div>
+                    <div class="xia1you">
+                        <div id="margin">
+                            <ul style="display: block;">
+                                <li class="fll">
+                                    <div><img src="./img/pic1.png" alt=""></div>
+                                    <p class="p1">《我的世界》x云见文数院，“游历方块世界博物馆”活动正式开启</p>
+                                    <p class="p2">作者：</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic2.png" alt=""></div>
+                                    <p class="p1">春节礼包-腾龙礼包宣传片</p>
+                                    <p class="p2">作者：我的世界</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic3.png" alt=""></div>
+                                    <p class="p1">下界更新宣传片</p>
+                                    <p class="p2">作者：我的世界</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic4.png" alt=""></div>
+                                    <p class="p1">春节礼包-莲花礼包宣传片</p>
+                                    <p class="p2">作者：我的世界</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic5.png" alt=""></div>
+                                    <p class="p1">三国赤壁宣传片</p>
+                                    <p class="p2">作者：我的世界</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic6.png" alt=""></div>
+                                    <p class="p1">MC开发者探营-3</p>
+                                    <p class="p2">作者：我的世界</p>
+                                </li>
+                            </ul>
+                            <ul style="display: none;">
+                                <li class="fll">
+                                    <div><img src="./img/pic11.png" alt=""></div>
+                                    <p class="p1">【MC抖音】</p>
+                                    <p class="p2">作者：MC抖音</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic22.png" alt=""></div>
+                                    <p class="p1">【MC抖音】</p>
+                                    <p class="p2">作者：MC抖音</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic33.png" alt=""></div>
+                                    <p class="p1">【MC抖音】</p>
+                                    <p class="p2">作者：MC抖音</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic44.png" alt=""></div>
+                                    <p class="p1">【MC抖音】</p>
+                                    <p class="p2">作者：MC抖音</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic55.png" alt=""></div>
+                                    <p class="p1">【MC抖音】</p>
+                                    <p class="p2">作者：MC抖音</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic66.png" alt=""></div>
+                                    <p class="p1">【MC抖音】</p>
+                                    <p class="p2">作者：MC抖音</p>
+                                </li>
+                            </ul>
+                            <ul style="display: none;">
+                                <li class="fll">
+                                    <div><img src="./img/pic111.png" alt=""></div>
+                                    <p class="p1">建筑师的生存世界#10 矿工之家！</p>
+                                    <p class="p2">作者：_昊日天_</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic222.png" alt=""></div>
+                                    <p class="p1">建筑师的生存世界#9 附魔师！</p>
+                                    <p class="p2">作者：_昊日天_</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic333.png" alt=""></div>
+                                    <p class="p1">建筑师的生存世界#8 挖黑曜石与看夜景</p>
+                                    <p class="p2">作者：_昊日天_</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic444.png" alt=""></div>
+                                    <p class="p1">建筑师的生存世界#7 磨刀霍霍向猪羊</p>
+                                    <p class="p2">作者：_昊日天_</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic555.png" alt=""></div>
+                                    <p class="p1">建筑师的生存世界#6 钻石诶！</p>
+                                    <p class="p2">作者：_昊日天_</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic666.png" alt=""></div>
+                                    <p class="p1">建筑师的生存世界#5 刷怪笼！</p>
+                                    <p class="p2">作者：_昊日天_</p>
+                                </li>
+                            </ul>
+                            <ul style="display: none;">
+                                <li class="fll">
+                                    <div><img src="./img/pic21.png" alt=""></div>
+                                    <p class="p1">《红石小教程-新·刷铁轨机</p>
+                                    <p class="p2">作者：你若_乘风</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic212.png" alt=""></div>
+                                    <p class="p1">红石小教程-无红石海泡菜机</p>
+                                    <p class="p2">作者：你若_乘风</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic213.png" alt=""></div>
+                                    <p class="p1">红石小教程-PE凋零笼子</p>
+                                    <p class="p2">作者：你若_乘风</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic214.png" alt=""></div>
+                                    <p class="p1">红石日记杂谈</p>
+                                    <p class="p2">作者：你若_乘风</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic215.png" alt=""></div>
+                                    <p class="p1">红石日记迪安选层电梯</p>
+                                    <p class="p2">作者：你若_乘风</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic216.png" alt=""></div>
+                                    <p class="p1">红石教程《村民商店筛选装置》</p>
+                                    <p class="p2">作者：你若_乘风</p>
+                                </li>
+                            </ul>
+                            <ul style="display: none;">
+                                <li class="fll">
+                                    <div><img src="./img/pic311.png" alt=""></div>
+                                    <p class="p1">我的世界十周年作品集锦献礼</p>
+                                    <p class="p2">作者：CW</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic312.png" alt=""></div>
+                                    <p class="p1">十周年作品剪辑</p>
+                                    <p class="p2">作者：NLT</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic313.png" alt=""></div>
+                                    <p class="p1">天枢岛北斗市建筑还原</p>
+                                    <p class="p2">作者：芸清</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic314.png" alt=""></div>
+                                    <p class="p1">斗鱼明星主播中秋建筑比赛锦集</p>
+                                    <p class="p2">作者：斗鱼明星主播中秋建筑比赛锦集</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic315.png" alt=""></div>
+                                    <p class="p1">虎牙建筑大赛精选</p>
+                                    <p class="p2">作者：虎牙建筑大赛精选</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic316.png" alt=""></div>
+                                    <p class="p1">虎牙建筑大赛精选</p>
+                                    <p class="p2">作者：虎牙建筑大赛精选</p>
+                                </li>
+                            </ul>
+                            <ul style="display: none;">
+                                <li class="fll">
+                                    <div><img src="./img/pic411.png" alt=""></div>
+                                    <p class="p1">第一集</p>
+                                    <p class="p2">作者：神游八方</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic412.png" alt=""></div>
+                                    <p class="p1">第二集</p>
+                                    <p class="p2">作者：神游八方</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic413.png" alt=""></div>
+                                    <p class="p1">第三集</p>
+                                    <p class="p2">作者：神游八方</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic414.png" alt=""></div>
+                                    <p class="p1">第四集</p>
+                                    <p class="p2">作者：神游八方</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic415.png" alt=""></div>
+                                    <p class="p1">第五集</p>
+                                    <p class="p2">作者：神游八方</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic416.png" alt=""></div>
+                                    <p class="p1">第六集</p>
+                                    <p class="p2">作者：神游八方</p>
+                                </li>
+                            </ul>
+                            <ul style="display: none;">
+                                <li class="fll">
+                                    <div><img src="./img/pic511.png" alt=""></div>
+                                    <p class="p1">最新海洋版，五年以来最大更新！</p>
+                                    <p class="p2">作者：-小疯-</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic512.png" alt=""></div>
+                                    <p class="p1">海洋版更新了好多东西</p>
+                                    <p class="p2">作者：麻瓜大将军</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic513.png" alt=""></div>
+                                    <p class="p1">MC中国版海洋更新来了？Mod启动器也来了！</p>
+                                    <p class="p2">作者：大大大大大T呐</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic514.png" alt=""></div>
+                                    <p class="p1">MC水域更新测试版更新！桶装鱼、海豚升级！</p>
+                                    <p class="p2">作者：大大大大大T呐</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic515.png" alt=""></div>
+                                    <p class="p1">最新的快照版本你一定没有见过的水僵尸</p>
+                                    <p class="p2">作者：小贤菌</p>
+                                </li>
+                                <li class="fll">
+                                    <div><img src="./img/pic516.png" alt=""></div>
+                                    <p class="p1">新版本介绍《终于出现实体鱼》</p>
+                                    <p class="p2">作者：小贤菌</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom clearfix">
+                <div class="zuo11">
+                    <div id="xiao1" class="top11">
+                        <a class="dd" style="background: url(./img/tj_bg_cc0d4ca.png) no-repeat;color: #fff;"
+                            href="#">小白起步</a>
+                        <a class="dd" href="#">高手进阶</a>
+                    </div>
+                    <div class="bottom11">
+                        <div id="xiao" style="margin-left: 0px;" class="kuo clearfix">
+                            <ul>
+                                <li class="lione"><img src="./img/cao.png" alt="">
+                                    <div>
+                                        <p class="fir">【小白攻略】动物驯养指南-羊篇</p>
+                                        <p class="sec">
+                                            大家好啊，我是农场主矮人，在这里要为大家介绍关于动物驯养的种种技巧，希望可以帮助各位冒险家成为大农场主!首先要介绍的是能够可以帮助我们快速度过夜晚的动物——羊!
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="lirest"><a href="#"><i></i>【小白攻略】敌对生物之骷髅射手篇</a><span>12/03</span></li>
+                                <li class="lirest"><a href="#"><i></i>【小白攻略】敌对生物之爬行者篇</a><span>11/25</span></li>
+                                <li class="lirest"><a href="#"><i></i>【小白攻略】敌对生物之僵尸篇</a><span>11/13</span></li>
+                                <li class="lirest"><a href="#"><i></i>【小白攻略】敌对生物之寻常篇</a><span>07/09</span></li>
+                                <li class="lirest"><a href="#"><i></i>【小白攻略】植物手册—西瓜与南瓜</a><span>06/27</span></li>
+                            </ul>
+                            <ul>
+                                <li class="lione"><img src="./img/44ee8137-7c8b-42e6-9b67-b6f77656091a.png" alt="">
+                                    <div>
+                                        <p class="fir">【高手攻略】方块世界建筑-乡村风味旅馆篇</p>
+                                        <p class="sec">大家好啊，这里是建筑学家矮人。从今天起，我会为大家带来一份超级详细的建筑攻略!</p>
+                                    </div>
+                                </li>
+                                <li class="lirest"><a href="#"><i></i>【组件攻略】像素足球赛场-《绿茵之巅—MC全明星足球》</a><span>12/03</span>
+                                </li>
+                                <li class="lirest"><a href="#"><i></i>【组件攻略】畅爽战斗体验-《哪吒：降妖伏魔》</a><span>11/25</span></li>
+                                <li class="lirest"><a href="#"><i></i>【高手攻略】红石音乐基础—音乐盒</a><span>11/13</span></li>
+                                <li class="lirest"><a href="#"><i></i>【高手攻略】红石基础—继器与活塞篇</a><span>07/09</span></li>
+                                <li class="lirest"><a href="#"><i></i>【组件攻略】《攀登者》致敬攀登精神</a><span>06/27</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="you11">
+                    <div class="shang11">
+
+                    </div>
+                    <div class="zhong11">
+
+                    </div>
+                    <div class="xia11">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="detail">
+
+        </div>
+    </div>
+    <script>
+        const xx = document.getElementById("xiao");
+        const xiao1 = document.querySelectorAll("#xiao1>a");
+        const mar1 = document.querySelectorAll("#mar1>li");
+        const mar = document.querySelectorAll("#margin>ul");
+        const dian = document.querySelectorAll("#dian1");
+        const none = document.querySelectorAll("#none1");
+        const cl = document.getElementById("zuo");
+        const cr = document.getElementById("you");
+        const cc = document.getElementById("yidong");
+        const bt = document.querySelectorAll("#h");
+        const tp = document.getElementById("nei");
+        const pic = document.querySelectorAll("#nei>img");
+        const lis = document.getElementById("list");
+        const xuan = document.querySelectorAll(".xuan>a");
+        const xiang = document.getElementById("heng");
+        const ul = document.querySelectorAll("#heng>ul");
+        const aa = document.querySelectorAll(".youce>a");
+        const di = document.getElementById("dibu");
+        var index = 0;
+        var timer = null;
+        var clag = 1;
+        var dlag = 1;
+        var ccl = 0;
+        for (let x = 0; x < xiao1.length; x++) {
+            xiao1[x].onmouseover = function () {
+                if (x != 0) {
+                    xiao1[0].style.background = "none";
+                    xiao1[0].style.color = "#242424";
+                }
+                else {
+                    xiao1[0].style.background = "url(./img/tj_bg_cc0d4ca.png) no-repeat";
+                    xiao1[0].style.color = "#fff";
+                }
+                for (let xx = 0; xx < xiao1.length; xx++) {
+                    xiao1[xx].style.background = "none";
+                    xiao1[xx].style.color = "#242424";
+                }
+                xiao.style.marginLeft = String(-428 * x) + "px";
+                xiao1[x].style.background = "url(./img/tj_bg_cc0d4ca.png) no-repeat";
+                xiao1[x].style.color = "#fff";
+
+            }
+        }
+        for (let t = 0; t < mar.length; t++) {
+            mar1[t].onmouseover = function () {
+                if (t != 0) {
+                    mar1[0].style.background = "none";
+                    mar1[0].style.color = "#333";
+                }
+                else {
+                    mar1[0].style.background = "url(./img/video_bg_63177d8.png)";
+                    mar1[0].style.color = "white";
+                }
+                for (let r = 0; r < mar.length; r++) {
+                    mar[r].style.display = "none";
+                    mar1[r].style.background = "none";
+                    mar1[r].style.color = "#333";
+                }
+                mar1[t].style.background = "url(./img/video_bg_63177d8.png)";
+                mar1[t].style.color = "white";
+                mar[t].style.display = "block";
+            }
+        }
+        for (let n = 0; n < dian.length; n++) {
+            dian[n].onmouseover = function () {
+                for (let s = 0; s < none.length; s++) {
+                    none[s].style.display = "none";
+                    none[s].style.visibility = "hidden";
+                    dian[s].style.backgroundColor = "";
+                }
+                none[n].style.display = "block";
+                dian[n].style.color = "white";
+                none[n].style.visibility = "visible";
+                dian[n].style.backgroundColor = "#ea4a34";
+            }
+        }
+        cl.onmouseover = function () {
+            if (ccl == 0) {
+                cl.style.cursor = "default";
+            }
+            else {
+                cl.style.cursor = "pointer";
+            }
+        }
+        cl.onclick = function () {
+            if (ccl != 0) {
+                cc.style.marginLeft = String(parseInt(cc.style.marginLeft) + 240) + "px";
+                ccl--;
+            }
+            if (ccl == 0) {
+                cl.style.cursor = "default";
+            }
+        }
+        cr.onmouseover = function () {
+
+            if (ccl == 3) {
+                cr.style.cursor = "default";
+            }
+            else {
+                cr.style.cursor = "pointer";
+            }
+        }
+        cr.onclick = function () {
+            if (ccl != 3) {
+                cc.style.marginLeft = String(parseInt(cc.style.marginLeft) - 240) + "px";
+                ccl++;
+            }
+            if (ccl == 3) {
+                cr.style.cursor = "default";
+            }
+        }
+        for (let d = 0; d < aa.length; d++) {
+            aa[d].onmouseover = function () {
+                di.style.marginLeft = String(-125 * d) + "px";
+                if (d != 0) {
+                    aa[0].style.color = "#333";
+                    aa[0].style.borderBottom = "none";
+                }
+                if (dlag == 0) {
+                    aa[0].style.color = "#333";
+                    aa[0].style.borderBottom = "none";
+                    aa[1].style.color = "#333";
+                    aa[1].style.borderBottom = "none";
+                    dlag = 1;
+                }
+                aa[d].style.color = "rgb(10, 192, 10)";
+                aa[d].style.borderBottom = "3px solid rgb(11, 172, 11)";
+                dlag = 0;
+            }
+        }
+        for (let i = 0; i < xuan.length; i++) {
+
+            xuan[i].onmouseover = function () {
+                xiang.style.marginLeft = String(-488 * i) + "px";
+
+                if (i != 0) {
+                    xuan[0].style.background = "none";
+                    xuan[0].style.color = "black"
+                }
+                if (clag == 0) {
+                    for (let c = 0; c < xuan.length; c++) {
+                        xuan[c].style.background = "none";
+                        xuan[c].style.color = "black"
+                    }
+                    clag = 1;
+                }
+                if (clag == 1) {
+                    xuan[i].style.background = "url(./img/news_on_e2243f0.png) no-repeat";
+                    xuan[i].style.backgroundSize = "auto 42px";
+                    xuan[i].style.color = "white"
+                    clag = 0;
+                }
+            }
+        }
+        timer = setInterval(autoplay, 1000);
+        function autoplay() {
+            for (let k = 0; k < bt.length; k++) {
+                if (bt[k].style.backgroundColor = "grey") {
+                    bt[k].style.backgroundColor = "#135805";
+                }
+            }
+            if (index >= pic.length) {
+                index = 0;
+            }
+            sett(index++);
+        }
+        function sett(ss) {
+            if (ss == 0) {
+                tp.style.transition = "none";
+            }
+            if (ss != 0) {
+                tp.style.transition = "1s";
+            }
+            if (ss == bt.length) {
+                bt[0].style.backgroundColor = "grey";
+            }
+            tp.style.marginLeft = String(-540 * ss) + "px";
+            if (bt[ss] != undefined) {
+                bt[ss].style.backgroundColor = "grey";
+            }
+
+        }
+        for (let i = 0; i < bt.length; i++) {
+            flag = 1;
+            bt[i].onmouseover = function () {
+                if (i != 0) {
+                    bt[0].style.backgroundColor = "#135805";
+                }
+                while (1) {
+                    if (flag == 1) {
+                        bt[i].style.backgroundColor = "grey";
+
+                        tp.style.marginLeft = String(-540 * i) + "px";
+                        flag = 0;
+                        index = i;
+                        break;
+                    }
+                    else {
+                        for (let k = 0; k < bt.length; k++) {
+                            if (bt[k].style.backgroundColor = "grey") {
+                                bt[k].style.backgroundColor = "#135805";
+                            }
+                        }
+                        flag = 1;
+                    }
+                }
+            }
+        }
+        lis.onmouseover = function () {
+            clearInterval(timer);
+        }
+        lis.onmouseleave = function () {
+            timer = setInterval(autoplay, 1000);
+        }
+    </script>
+</body>
+
+</html>
